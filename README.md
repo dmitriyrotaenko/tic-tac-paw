@@ -1,6 +1,10 @@
 A simple tic-tac-toe game but instead of standard ❌ and 〇, the players mark with 🐱 and 🐶 (that's why the game name has 'paw').
 
 
+## Demo
+
+The game is available [online](https://dmitriyrotaenko.github.io/tic-tac-paw/).
+
 ## Screenshots
 
 **Initial state**
