@@ -19,3 +19,6 @@ The game is available [online](https://dmitriyrotaenko.github.io/tic-tac-paw/).
 
 <img width="500" alt="Screenshot 2024-12-21 at 23 14 02" src="https://github.com/user-attachments/assets/17a49ccf-3b95-486b-89b3-483fcc1a8e79" />
 
+## TO BE
+
+The game is not accessible from keyaboard.
