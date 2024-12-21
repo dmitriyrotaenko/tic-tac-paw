@@ -1,4 +1,4 @@
-A simple tic-tac-toe game.
+A simple tic-tac-toe game but instead of standard ❌ and 〇, the players mark with 🐱 and 🐶 (that's why the game name has 'paw').
 
 
 ## Screenshots
