@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./styles.css">
+	<script defer type="module" src="./script.js"></script>
+	<title>TIC-TAC-PAW</title>
+</head>
+<body>
+	<main>
+		<header class="header">
+			<h1 class="title">TIC-TAC-PAW 🐾</h1>
+		</header>
+
+		
+		<div class="app-container">
+
+			<div class="board-wrapper">
+				<template class="board-template">
+					<div class="board">
+						<div tabindex="0" data-id="0" class="cell"></div>
+						<div tabindex="0" data-id="1" class="cell"></div>
+						<div tabindex="0" data-id="2" class="cell"></div>
+						<div tabindex="0" data-id="3" class="cell"></div>
+						<div tabindex="0" data-id="4" class="cell"></div>
+						<div tabindex="0" data-id="5" class="cell"></div>
+						<div tabindex="0" data-id="6" class="cell"></div>
+						<div tabindex="0" data-id="7" class="cell"></div>
+						<div tabindex="0" data-id="8" class="cell"></div>
+					</div>
+				</template>
+
+				<div class="board__actions">
+					<button class="reset-btn">Reset game <span class="reset-icon">&#8634;</span></button>
+				</div>
+			</div>
+			
+			<output class="step">
+				 <p class="step-text">Current move</p>
+				 <span class="step-icon"></span>
+			</output>
+		</div>
+
+	</main>
+</body>
+</html>
